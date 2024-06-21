@@ -137,6 +137,6 @@ def body_mass_index(weight, height):
     '''
     # Replace `pass` with your code.
     # Stay within the function. Only use the parameters as input. The function should return your answer.
-    body_mass_index = float((weight / 2.2)/(list(height))**2))
+    body_mass_index = float((weight / 2.2)/(list(height)*0.3048)**2))
     return body_mass_index
 
